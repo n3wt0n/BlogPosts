@@ -2,17 +2,14 @@ When you use containers for your application, one of the things you need to thin
 
 In this series, I will explore different ways to do so... with the help of __Azure DevOps__
 
-Part of the series:
-1. Container image promotion using a Registry as repo (_this article_)
-2. Container image promotion using the Build Artifact approach (_coming soon_)
-3. Container image promotion using the Build Artifact approach - YAML (_coming soon_)
-
 ### Intro
+
 In this article, the first of the series, we will explore the simplest and most used  way (at least in my experience) to promote a Container image across different environments.
 
 We will use a non-environment-specific registry as a base repo, and we will push the image to this registry during the _build_ phase. Then, we will take the image and push it to some environment-specific registries in the _release_ phases as we move forward.
 
 ### The Build
+
 As step "zero", we want to create our container image with all we need for our application to function properly. I will not focus on the image creation at this time.
 
 > There are two ways to "install" your code onto a container image: a multi-step Dockerfile which compiles your code AND create the image, or compiling the application outside the container and then simply install it into the image.
@@ -33,6 +30,7 @@ As you can see, I simply create the image and then I push it to the registry.
 Actually Azure DevOps has a task that can combine both operation, called __buildAndPush__, but for clarity I prefer keeping the two commands separated.
 
 ### Let's Release
+
 Ok, now we have our container image, and we have pushed it to the general container registry.
 
 The temptation here would be to pull the image from that very registry and ship it to our server. NO, we won't do that. Instead, we are going to create a __Release Pipeline__ which will use the container registry as input.
@@ -49,6 +47,7 @@ Now, let's talk about the next steps. Let's say you have three different environ
 ![Stages](https://thepracticaldev.s3.amazonaws.com/i/87nkrz8pkgd3pvuiu4nz.png)
 
 Then let's edit the _Dev_ stage. We need to:
+
 * Pull the image from the generic registry
 * Change it's name so it can be pushed to the Dev registry
 * Push it to the Dev registry
@@ -83,6 +82,7 @@ Ideally when pushing to the environment-specific registry you should have a mech
 And of course you probably want to set some _Release Gates_ or _Approvals_ for deploying to Test and Prod.
 
 ### Conclusion
+
 This process is probably the most used, however it is not my favorite.  
 First of all, you need more registries than environments.  
 Second, and probably more important, __it doesn't ensure 1:1 mapping between build and release__. And this means that __the image you build and the one you deploy might not be the same__.
