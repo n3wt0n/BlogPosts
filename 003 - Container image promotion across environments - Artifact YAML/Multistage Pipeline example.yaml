@@ -1,0 +1,151 @@
+trigger:
+  branches:
+      include:
+          - master
+  paths:
+      include:
+          - MyProject/MyProject.ReportExecutor/*
+          - MyProject/MyProject.Business/*
+   
+   pool:
+     vmImage: 'ubuntu-latest'
+   
+   variables:
+     BuildConfiguration: 'Release'
+     projectPath: '**/MyProject.ReportExecutor.csproj'
+     testProjectPath: '**/MyProject.@(ReportExecutor|Business)*.Test.csproj'
+     ImageName: 'myprojectreportexecutor'
+   
+  stages:
+       
+   - stage: CI
+     displayName: 'CI stage'
+     jobs:
+     - job: Build
+       displayName: 'Build for MyProject'
+       steps:
+        # Add all the tasks you need to build your project
+       - task: WhateverTask@1
+         displayName: 'Build MyProject' 
+         # all the parameters you need
+   
+       - task: Docker@2
+         displayName: 'Build MyProject image'
+         inputs:
+           repository: '$(ImageName)'
+           command: build
+           Dockerfile: MyProject/Dockerfile
+           tags: $(Build.BuildId)
+           
+       - task: Docker@2
+         displayName: 'Save image to TAR'
+         inputs:
+           repository: '$(ImageName)'
+           command: save
+           arguments: '--output $(build.artifactstagingdirectory)/$(ImageName).image.tar $(ImageName):$(Build.BuildId)'
+           addPipelineData: false
+   
+       - task: PublishPipelineArtifact@1
+         displayName: 'Publishing Image as Pipeline Artifact'
+         inputs:
+           path: $(build.artifactstagingdirectory)
+           artifact: ContainerImage
+   
+   - stage: CDDev
+     displayName: 'CD stage for DEV'
+     jobs:
+     - deployment: Dev
+       displayName: 'Deploy to DEV'
+       environment: MyProject-DEV
+       strategy:
+         runOnce:
+           deploy:
+             steps:
+             - task: Docker@2
+               displayName: 'Load Image from Tar'
+               inputs:
+                 command: load
+                 arguments: '--input $(Pipeline.Workspace)/ContainerImage/$(ImageName).image.tar'
+   
+             - task: Docker@2
+               displayName: 'ReTag Image with ACR Name - BuildId'
+               inputs:
+                 containerRegistry: MyProjectACRdev # This comes from the Service Connections
+                 repository: '$(ImageName)'
+                 command: tag
+                 arguments: '$(ImageName):$(Build.BuildId) $(ContainerRegistryNameDev)/$(ImageName):$(Build.BuildId)' 
+   
+             - task: Docker@2
+               displayName: 'Push Image to ACR'
+               inputs:
+                 containerRegistry: MyProjectACRdev
+                 repository: '$(ImageName)'
+                 command: push
+                 tags: $(Build.BuildId)
+             # Add any other deployment task you need, for example a Kubectl task to deploy to Kubernetes
+   
+   - stage: CDUat
+     displayName: 'CD stage for UAT'
+     jobs:
+     - deployment: Uat
+       displayName: 'Deploy to UAT'
+       environment: MyProject-UAT
+       strategy:
+         runOnce:
+           deploy:
+             steps:
+             - task: Docker@2
+               displayName: 'Load Image from Tar'
+               inputs:
+                 command: load
+                 arguments: '--input $(Pipeline.Workspace)/ContainerImage/$(ImageName).image.tar'
+   
+             - task: Docker@2
+               displayName: 'ReTag Image with ACR Name - BuildId'
+               inputs:
+                 containerRegistry: MyProjectACRuat # This comes from the Service Connections
+                 repository: '$(ImageName)'
+                 command: tag
+                 arguments: '$(ImageName):$(Build.BuildId) $(ContainerRegistryNameUAT)/$(ImageName):$(Build.BuildId)'
+   
+             - task: Docker@2
+               displayName: 'Push Image to ACR'
+               inputs:
+                 containerRegistry: MyProjectACRuat
+                 repository: '$(ImageName)'
+                 command: push
+                 tags: $(Build.BuildId)
+            # Add any other deployment task you need, for example a Kubectl task to deploy to Kubernetes
+   
+   - stage: CDProd
+     displayName: 'CD stage for PROD'
+     jobs:              
+     - deployment: Prod
+       displayName: 'Deploy to PROD'
+       environment: MyProject-PROD
+       strategy:
+         runOnce:
+           deploy:
+             steps:
+             - task: Docker@2
+               displayName: 'Load Image from Tar'
+               inputs:
+                 command: load
+                 arguments: '--input $(Pipeline.Workspace)/ContainerImage/$(ImageName).image.tar'
+   
+             - task: Docker@2
+               displayName: 'ReTag Image with ACR Name - BuildId'
+               inputs:
+                 containerRegistry: MyProjectACRprod # This comes from the Service Connections
+                 repository: '$(ImageName)'
+                 command: tag
+                 arguments: '$(ImageName):$(Build.BuildId) $(ContainerRegistryNamePROD)/$(ImageName):$(Build.BuildId)'
+   
+             - task: Docker@2
+               displayName: 'Push Image to ACR'
+               inputs:
+                 containerRegistry: MyProjectACRprod
+                 repository: '$(ImageName)'
+                 command: push
+                 tags: $(Build.BuildId)
+             # Add any other deployment task you need, for example a Kubectl task to deploy to Kubernetes
