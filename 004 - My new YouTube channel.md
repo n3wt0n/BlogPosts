@@ -9,3 +9,5 @@ I also often speak at conferences and technical events, so I plan to make a seri
 If you don't want to miss a thing, just be sure to subscribe () and turn on the notifications.
 
 See you soon on [CoderDave](https://www.youtube.com/channel/UCtiFg7r8WBBzC6xo-tfEYFw)!
+
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/uamqsmpkdtyqwvgkzcpb.png)
