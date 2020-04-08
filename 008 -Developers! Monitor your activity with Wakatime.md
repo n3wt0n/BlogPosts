@@ -23,3 +23,7 @@ But enough talking, let's see it in action.
 I mainly use it for myself, because I wanna know how much time I spend on different projects and languages and because, to be honest, I like metrics and stuff like that.
 
 What do you think? Let me know in the comment section below if you use Wakatime, and why. Or if you use other similar tools.
+
+> __CORRECTION__
+> In the video I stated that "Private Leaderboards are available in Paid versions only".
+> However that is not accurate, private leaderboards for up to 3 friends are available also in the free version.
