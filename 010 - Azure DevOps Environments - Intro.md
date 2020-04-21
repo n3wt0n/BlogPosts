@@ -18,7 +18,7 @@ If you rather prefer reading, well... let's just continue :)
 
 Environments basically represent a group of resources for a Pipeline, and allow you to map your organization physical or virtual environments like “development”, “staging”, “production”, etc, into Azure DevOps.
 
-And while ean nvironment at its core is a grouping of resources, the resources themselves represent actual deployment targets.
+And while environment at its core is a grouping of resources, the resources themselves represent actual deployment targets.
 
 At the time of writing, there are 2 types of resources you can use in Environments: Kubernetes clusters and Virtual Machines. Other resource types, like Azure WebApp, Databases, etc are coming soon.
 
