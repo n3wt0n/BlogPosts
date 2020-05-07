@@ -1,3 +1,5 @@
+[UPDATED 7 May 2020]
+
 This overdue post comes at the request from a few people on Twitter after I tweeted out a picture of my office/desk setup at time of this posting.
 
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/uie7f030i6zdeo3idthm.jpg)
