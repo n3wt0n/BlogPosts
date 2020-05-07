@@ -13,6 +13,7 @@ And wow it is fast!
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/bv873hq1uhlmwtnbmugo.jpg)
 
 These are the specs:
+
 - CPU: AMD Ryzen 9 3950X, 16 cores @ 3.5 Ghz
 - RAM: G.Skill Ripjaws V, 64 Gb DDR4-3200, 16 x 4 Gb
 - SSD: Corsair MP600, M.2, NVMe, 1 Tb, PCI-Express Gen.4
@@ -48,6 +49,8 @@ Same thing for the mouse, it is not the most precise or the most beautiful, but 
 
 One thing to notice here is that the keyboard is a real battery eater. I have to remove the batteries every time I stop working on the computer for the day because if not the day after I need to put in new batteries... Not sure it's just mine or all of them are the same.
 
+You can find it [here](https://amzn.to/2YGfrDC)
+
 # Webcams
 
 I have a multi-webcam setup.
@@ -57,6 +60,10 @@ My main webcam, which I use for most of my conf-calls and for some _quick'n'dirt
 It is a quite good webcam (you can find many reviews online) but unfortunately it has some autofocus problems in some conditions (again, a lot of reviews about this as well).
 
 On my right monitor, I have a second webcam for some more side views. It is a __Microsoft LifeCam HD 3000__, and even tho its resolution is only 720p I have to say that the image quality is pretty nice.
+
+Here are the links to those webcams:  
+[Logitech C920](https://amzn.to/2ziX24S)  
+[Microsoft LifeCam HD 3000](https://amzn.to/2WbXPxu)
 
 # Camera
 
@@ -70,6 +77,10 @@ I decided to get the __Sony A6400__ after watching hundreds of YouTube videos an
 
 I also got a __Sigma 16mm f/1.4__ since it's a highly recommended lens and it does incredible in low light. With the low aperture, I'm also able to get a pretty amazing depth of field, which also means my background is less distracting and viewers are more likely to focus on what I'm saying. This lense is just amazing, only downside is that it is fairly big and heavy (you can see it in the picture above).
 
+You can find the [Sony a6400 here](https://amzn.to/35FMGYU ) and the [Sigma 16mm f1.4 here](https://amzn.to/2L5NDAi)
+
+And of course I use the [Elgato CamLink 4k](https://amzn.to/3dhQhz4) to connect the camera to the computer.
+
 # Microphone
 
 Nothing too _pro_ here, I have a __Maono A425 Plus__. It is a decent Cardioid Condenser USB Microphone.
@@ -80,13 +91,17 @@ The nice thing is that it has all you need in the box: the desk stand with the t
 
 Highly recommended, if you don't need a studio quality mic.
 
+You can find this [microphone here](https://amzn.to/35C1nMV)
+
 # Headphones
 
 I use 2 headphones, the Microsoft Sirface Headphones and a pair of Razer ones.
 
 The __Microsoft Surface Headphones__ are my main ones when listening to music or for calls when I'm travelling.
 
-The __Razer Kraken USB__ instead is my go-to pair of headphones for whenever I cannot (or don;t want to) use the external speakers for calls, videos, etc.
+The __Razer Kraken USB__ instead is my go-to pair of headphones for whenever I cannot (or don't want to) use the external speakers for calls, videos, etc.
+
+You can find [these headphones here](https://amzn.to/2L8Fefy)
 
 # Network: NAS, Switch, Wifi and Router
 
@@ -111,6 +126,8 @@ I use this when I travel and deliver the engagement at client sites.
 
 I keep all the relevant documents and files on _OneDrive_ so they are automatically shared across al my PCs, and I developed some scripts to synchronize other files and settings. Pretty sweet.
 
+You can buy the [Surface Laptop 2 here](https://amzn.to/2WbHGbK) with the same config as mine.
+
 My secondary laptop is a HP Envy 15, with an Intel i7-4700MQ, 16Gb of Ram and 512 Gb SSD. Even though this machine is way older than my Surface, its CPU is so powerful that it outperforms the Surface Laptop 2 in some CPU-intensive tasks!
 
 I use this laptop to do maintenance on some old projects that require a ton of legacy dependencies that I don't want to install on my more recent machines.
@@ -121,9 +138,6 @@ I use this laptop to do maintenance on some old projects that require a ton of l
 
 I am a big fan of Doctor Who and Alien... so I simply had to have some props :)
 
-  
-
-    
 Have I missed something?
 
 Anything else you wanna know? Let me know in the comments :)
