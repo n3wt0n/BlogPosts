@@ -24,7 +24,7 @@ This was a quick showcase of what you can do with GitHub Actions.
 
 But as I've said before, you are by no means limited to what I've shown you here. You can do much much more.
 
-You can take a look at the example in the [Github Repo](https://github.com/n3wt0n/HKOSConf2020) I've created, and please __leave me a comment below__ to let me know:
+You can take a look at the example in the [Github Repo](https://github.com/n3wt0n/HKOSCon2020) I've created, and please __leave me a comment below__ to let me know:
 
 1. Do you already use Actions for something non CICD-related?
 2. What do you think of GitHub Actions?
@@ -32,5 +32,5 @@ You can take a look at the example in the [Github Repo](https://github.com/n3wt0
 
 ### References and Links
 
-- [Github Repo with all the examples](https://github.com/n3wt0n/HKOSConf2020)
+- [Github Repo with all the examples](https://github.com/n3wt0n/HKOSCon2020)
 - [Video on GitHub Actions for .Net Framework](https://youtu.be/g8tdrB3kbDU)
