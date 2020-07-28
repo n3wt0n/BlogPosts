@@ -1,6 +1,6 @@
 We all know how to enable our Builds as CI Pipelines, and our Releases as CD Pipelines. No big deal there.
 
-But sometime it is necessary or just helpful to run some pipeline at defined intervals, or in a scheduled manner.
+But sometimes it is necessary or just helpful to run some pipeline at defined intervals, or in a scheduled manner.
 
 Let's see how, with the help of Azure Pipelines Schedule trigger.
 
@@ -111,15 +111,15 @@ If you are not familiar with the CRON syntax, here you have something for your r
 
 It's basically a numerical way to express time and dates for scheduling purposes.
 
-It starts with minutes, than hours, days, months and days of weeks.
+It starts with minutes, then hours, days, months and days of weeks.
 
 And for each field, apart from the values you can see here. you can also use wildcards like star to match every possible value or intervals.
 
 Going back to the schedules, there are some things you __need to keep in mind__.
 
-First, you __must__ use the "___include___" keyword. In the Classic Pipelines you can omit that, and the engine will take the whole content of the repo. With the YAML Pielines, it won't work. The "exclude" part is instead optional.
+First, you __must__ use the "___include___" keyword. In the Classic Pipelines you can omit that, and the engine will take the whole content of the repo. With the YAML Pipelines, it won't work. The "exclude" part is instead optional.
 
-Second, by default the Classic Pilelines will execute anyway, no matter what, unless you optionally enable the "Only schedule builds if the source or pipeline has changed" checkbox. With YAML, instead, you __need to manually tell Azure Pipelines that you want to always execute the Pipeline even tho something hasn't changed__, and you do so using the "_always: true_" statement. Basically Classic and YAML Pipelines behave the opposite one another.
+Second, by default the Classic Pipelines will execute anyway, no matter what, unless you optionally enable the "Only schedule builds if the source or pipeline has changed" checkbox. With YAML, instead, you __need to manually tell Azure Pipelines that you want to always execute the Pipeline even tho something hasn't changed__, and you do so using the "_always: true_" statement. Basically Classic and YAML Pipelines behave the opposite one another.
 
 Lastly, __the time in the YAML Pipelines is expressed in UTC time zone__ and it is not possible to change time zone.
 
