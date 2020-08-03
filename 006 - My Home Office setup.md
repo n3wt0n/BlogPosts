@@ -1,3 +1,6 @@
+> ### UPDATE 3 August 2020:  
+> Because of the ever changing nature of my WFH setup, I've created a GitHub repo which hosts the __always up-to-date__ version of my setup: [https://github.com/n3wt0n/work-from-home-setup](https://github.com/n3wt0n/work-from-home-setup)
+
 [UPDATED 7 May 2020]
 
 This overdue post comes at the request from a few people on Twitter after I tweeted out a picture of my office/desk setup at time of this posting.
