@@ -16,7 +16,7 @@ They had __dozens of different systems__ that needed to communicate with one ano
 
 Of course, as you would expect, the landscape of those systems is very __heterogeneous__: 
 
-- some platform have APIs, some haven't
+- some platforms have APIs, some haven't
 - on some system you need to connect directly on the database
 - some of the systems are hosted on-prem, while some others are hosted in Azure
 
@@ -49,7 +49,7 @@ All of them can __automatically scale__ based on load or custom metrics, to help
 
 After a few architectural sessions, and some implementation, this is what we came out with:
 
-[IMAGE 01]
+![v1 of the platform](https://dev-to-uploads.s3.amazonaws.com/i/9fwbu6ox6l5d1gfcfqpv.jpg)
 
 As you can see, there are __2 main flows__: the ___API___ flow and the ___Message Queue___ one.
 
@@ -68,14 +68,14 @@ And since the message at this point has a standard format and properties, it can
 This was already a __good solution__, but not a perfect one. In fact:
 
 - __async communication was not always provided__ (especially when invoking APIs directly)
-- the system __wasn't able to handle the online/offline__ status of the services (for example during maintenance or update windows)
+- the system __couldn't handle the online/offline__ status of the services (for example during maintenance or update windows)
 - there was __no way for the users to interact manually__ with the EIP
 
 ### The Better Solution (v2)
 
 For the above reasons, we decided to expand the v1 into the v2 of the EIP:
 
-[IMAGE 2]
+![v2 of the platform](https://dev-to-uploads.s3.amazonaws.com/i/qnjbb5kyy4lmumkn7li4.jpg)
 
 The ___foundations of the v2 are the same___, but we introduced some more "components".
 
@@ -104,7 +104,7 @@ We also went beyond what the initial requirements were:
 Although this is an almost perfect EIP (at least it is for us), there are some small notes and gotchas worth sharing.
 
 - Azure Functions in Consumption mode doesn't support VNet integration
-  - You need to use other hosting plans (i.e. Premium, Dedicated, etc) if you want to connect to on-prem
+  - You need to use other hosting plans (i.e. Premium, Dedicated, etc.) if you want to connect to on-prem
 - CI/CD for LogicApps is not exactly fun
   - LogicApp workflow definition language must be manually parametrized
   - Then ARM Template can be grabbed, but
