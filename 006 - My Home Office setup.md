@@ -27,6 +27,8 @@ These are the specs:
 - PSU: EVGA SuperNOVA 750 G+, 80 Plus Gold 750W, Fully Modular
 - COOLING: Corsair Hydro Series, H115i RGB PLATINUM, 280mm
 
+[Check out the repo here with all the info and link](https://github.com/n3wt0n/work-from-home-setup)
+
 I published a video on my [YouTube channel](https://www.youtube.com/CoderDave) when building it.
 
 You can take a look at it here:
@@ -67,8 +69,8 @@ It is a quite good webcam (you can find many reviews online) but unfortunately i
 On my right monitor, I have a second webcam for some more side views. It is a __Microsoft LifeCam HD 3000__, and even tho its resolution is only 720p I have to say that the image quality is pretty nice.
 
 Here are the links to those webcams:  
-[Logitech C920](https://amzn.to/2ziX24S)  
-[Microsoft LifeCam HD 3000](https://amzn.to/2WbXPxu)
+[Logitech C920](https://geni.us/QDma5Wf)  
+[Microsoft LifeCam HD 3000](https://geni.us/CYgKLlt)
 
 # Camera
 
@@ -82,9 +84,9 @@ I decided to get the __Sony A6400__ after watching hundreds of YouTube videos an
 
 I also got a __Sigma 16mm f/1.4__ since it's a highly recommended lens and it does incredible in low light. With the low aperture, I'm also able to get a pretty amazing depth of field, which also means my background is less distracting and viewers are more likely to focus on what I'm saying. This lense is just amazing, only downside is that it is fairly big and heavy (you can see it in the picture above).
 
-You can find the [Sony a6400 here](https://amzn.to/35FMGYU ) and the [Sigma 16mm f1.4 here](https://amzn.to/2L5NDAi)
+You can find the [Sony a6400 here](https://geni.us/i3tTytL) and the [Sigma 16mm f1.4 here](https://geni.us/jEHXHkX)
 
-And of course I use the [Elgato CamLink 4k](https://amzn.to/3dhQhz4) to connect the camera to the computer.
+And of course I use the [Elgato CamLink 4k](https://geni.us/w3G6) to connect the camera to the computer.
 
 # Microphone
 
@@ -96,17 +98,17 @@ The nice thing is that it has all you need in the box: the desk stand with the t
 
 Highly recommended, if you don't need a studio quality mic.
 
-You can find this [microphone here](https://amzn.to/35C1nMV)
+You can find this [microphone here](https://geni.us/4c0Lon)
 
 # Headphones
 
-I use 2 headphones, the Microsoft Sirface Headphones and a pair of Razer ones.
+I use 2 headphones, the Microsoft Surface Headphones and a pair of Razer ones.
 
 The __Microsoft Surface Headphones__ are my main ones when listening to music or for calls when I'm travelling.
 
 The __Razer Kraken USB__ instead is my go-to pair of headphones for whenever I cannot (or don't want to) use the external speakers for calls, videos, etc.
 
-You can find [these headphones here](https://amzn.to/2L8Fefy)
+You can find [these headphones here](https://geni.us/PBoyefE)
 
 # Network: NAS, Switch, Wifi and Router
 
