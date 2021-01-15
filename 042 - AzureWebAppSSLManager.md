@@ -78,4 +78,4 @@ The deployment can be done:
 
 Check out the project's [GitHub repo](https://github.com/n3wt0n/AzureWebAppSSLManager), try it out and let me know what you think!
 
-Remember to __star the repo__ and follow me on GitHub as well.
+Remember to __star the repo__ and follow me on [GitHub](https://github.com/n3wt0n) as well.
