@@ -24,13 +24,13 @@ If you rather prefer reading, well... let's just continue :)
 
 To create a PAT, just go to your profile menu in the upper right corner > _Settings_ > _Developer Settings_ > and finally click on _Personal Access Tokens_.
 
-[IMAGE 01]
+![menu](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2jon6mm6jxii2enh18em.png)
 
 Here you have the list of all the PATs you've created, together with the date you last used them.
 
 Now just click on the _Generate new token_ button, select the __Scope__, click _Generate Token_ and you're done.
 
-[IMAGE 02]
+![New PAT](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yaxm8bb6rxo55yt4frm1.png)
 
 > __IMPORTANT__: after generating a token, you will see the token itself. Be sure to copy this value because it will __disappear__ as soon as you leave or refresh the page and you will ___never___ be able to retrieve it again.
 
@@ -38,6 +38,9 @@ Now just click on the _Generate new token_ button, select the __Scope__, click _
 
 If you want to use a PAT to access resources owned by an __organization that uses SAML SSO__, you must authorize the PAT. 
 
+![SSO](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/se1t4g7n6zn5ckh1639v.png)
+
+Click on the "_Enable SSO_" button next to a token and then on "_Authorize_" for the organization you want to enable. Easy, right?
 
 > Final note: As a security precaution, GitHub __automatically removes__ personal access tokens that haven't been used in a year.
 
@@ -47,6 +50,10 @@ Before closing, I have an __announcement__ to make, which I'm very excited about
 
 Visit my Patreon page to see the options available, just go to [patreon.com/CoderDave](https://patreon.com/CoderDave).
 
+[![Patreon](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1pjmrxiy311fwpsm86gp.png)](https://patreon.com/CoderDave)
+
 ### Conclusions
 
 Now you should be able to create any PAT you need in GitHub. Let me know in the comment section below if you have any questions about this.
+
+{% youtube SzrETQdGzBM %}
