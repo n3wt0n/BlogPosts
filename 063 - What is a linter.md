@@ -10,7 +10,6 @@ Watch the full video here 🤓
 
 [Link to the video: XXX](XXX)
 
-
 Let me know below what you think! Do you have any other questions about Linters and Linting? 
 
 __Stay tuned__ because I will soon have another post and video about the __GitHub Super Linter__!
