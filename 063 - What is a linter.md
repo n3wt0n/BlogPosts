@@ -6,9 +6,9 @@ These questions, and many more, come up every time I talk about linting to some 
 
 Watch the full video here 🤓
 
-{% youtube XXX %}
+{% youtube HDQXWr5TOnI %}
 
-[Link to the video: XXX](XXX)
+[Link to the video: https://youtu.be/HDQXWr5TOnI](https://youtu.be/HDQXWr5TOnI)
 
 Let me know below what you think! Do you have any other questions about Linters and Linting? 
 
@@ -16,13 +16,14 @@ __Stay tuned__ because I will soon have another post and video about the __GitHu
 
 __Like, share and follow me__ 🚀 for more content:
 
-[YouTube](https://www.youtube.com/CoderDave)
-[Patreon](https://patreon.com/CoderDave)
-[Merch](https://geni.us/cdmerch)
-[Facebook page](https://www.facebook.com/CoderDaveYT)
-[GitHub](https://github.com/n3wt0n)
-[Twitter](https://www.twitter.com/davide.benvegnu)
-[LinkedIn](https://www.linkedin.com/in/davidebenvegnu/)
-[Podcast](https://geni.us/cdpodcast)
+📽 [YouTube](https://www.youtube.com/CoderDave)
+☕ [Buy me a coffee](https://buymeacoffee.com/CoderDave)
+💖 [Patreon](https://patreon.com/CoderDave)
+👕 [Merch](https://geni.us/cdmerch)
+👦🏻 [Facebook page](https://www.facebook.com/CoderDaveYT)
+🐱‍💻 [GitHub](https://github.com/n3wt0n)
+👲🏻 [Twitter](https://www.twitter.com/davide.benvegnu)
+👴🏻 [LinkedIn](https://www.linkedin.com/in/davidebenvegnu/)
+🔉 [Podcast](https://geni.us/cdpodcast)
 
-{% youtube ZoXiA_WyNzc %}
+{% youtube HDQXWr5TOnI %}
