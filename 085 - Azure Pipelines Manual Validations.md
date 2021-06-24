@@ -6,7 +6,7 @@ As I've mentioned, you can use this new task in a YAML pipeline to pause a run w
 
 This is especially useful in scenarios where you want to pause a pipeline and validate configuration settings, build package, etc. before moving on to a long-running, compute-intensive job.
 
-When the Manual validation task is activated during a pipeline, it displays a message bar containing a link that opens the Manual validation dialog containing the instructions. After carrying out the manual steps, the administrator or user can choose to resume the run, or reject it.
+When the Manual validation task is activated during a pipeline, it displays a message bar containing a link that opens the Manual validation dialog containing the instructions. After carrying out the manual steps, the administrator or user can choose to resume the run or reject it.
 
 ### Demo
 
@@ -14,9 +14,9 @@ Let's see this in action. We will cover how to configure Azure Pipelines to use 
 
 Here you have __the video with the whole demo and explanation__.
 
-{% youtube XXX %}
+{% youtube sfb3d100JPo %}
 
-[Link to the video: XXX](XXX)
+[Link to the video: https://youtu.be/sfb3d100JPo](https://youtu.be/sfb3d100JPo)
 
 ### Limitations
 
@@ -26,7 +26,7 @@ Remember that, as I've mentioned in the video, you can use this new approach onl
 
 I wanna know what you think about this feature, so let me know in the comment section below.
 
-Also, checkout [this video over here](https://youtu.be/3cGtA__dKUc), where I talk about the differences between Classic and YAML pipelines for both Build and Release.
+Also, check [this video over here](https://youtu.be/3cGtA__dKUc), where I talk about the differences between Classic and YAML pipelines for both Build and Release.
 
 __Like, share and follow me__ 🚀 for more content:
 
@@ -43,4 +43,4 @@ __Like, share and follow me__ 🚀 for more content:
 
 <a href="https://www.buymeacoffee.com/CoderDave" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 30px !important; width: 108px !important;" ></a>
 
-{% youtube XXX %}
+{% youtube sfb3d100JPo %}
