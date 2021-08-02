@@ -14,9 +14,9 @@ Let's jump right into the first myth.
 
 As usual, if you are a __visual learner__, or simply prefer to watch and listen instead of reading, here you have __the video with the whole explanation__, which is  ___more complete___ than this post.
 
-{% youtube XXX %}
+{% youtube OsnWo4j4zIo %}
 
-[Link to the video: XXX](XXX)
+[Link to the video: https://youtu.be/OsnWo4j4zIo](https://youtu.be/OsnWo4j4zIo)
 
 If you rather prefer reading, well... let's just continue :)
 
@@ -137,4 +137,4 @@ __Like, share and follow me__ 🚀 for more content:
 
 <a href="https://www.buymeacoffee.com/CoderDave" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 30px !important; width: 108px !important;" ></a>
 
-{% youtube XXX %}
+{% youtube OsnWo4j4zIo %}
