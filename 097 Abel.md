@@ -12,6 +12,6 @@ This is my small tribute to him, to one of the best of us all.
 
 In memory of Abel Wang. Rest in Peace. You are and will always be __sorely missed__.
 
-{% youtube XXX %}
+{% youtube Ortp-e5T_8Q %}
 
-[Link to the video: XXX](XXX)
+[Link to the video: https://youtu.be/Ortp-e5T_8Q](https://youtu.be/Ortp-e5T_8Q)
