@@ -24,6 +24,7 @@ __Like, share and follow me__ 🚀 for more content:
 📽 [YouTube](https://www.youtube.com/CoderDave)
 ☕ [Buy me a coffee](https://buymeacoffee.com/CoderDave)
 💖 [Patreon](https://patreon.com/CoderDave)
+📧 [Newsletter](https://coderdave.io/newsletter)
 🌐 [CoderDave.io Website](https://coderdave.io)
 👕 [Merch](https://geni.us/cdmerch)
 👦🏻 [Facebook page](https://www.facebook.com/CoderDaveYT)
