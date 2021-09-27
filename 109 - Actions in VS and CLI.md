@@ -10,9 +10,9 @@ Btw, I'd be curious to know how you create your GitHub Actions workflow. Let me 
 
 As usual, if you are a __visual learner__, or simply prefer to watch and listen instead of reading, here you have __the video with the whole explanation and demo__, which to be fair is much ___more complete___ than this post.
 
-{% youtube XXX %}
+{% youtube N2ELIqLWz0k %}
 
-[Link to the video: XXX](XXX)
+[Link to the video: https://youtu.be/N2ELIqLWz0k](https://youtu.be/N2ELIqLWz0k)
 
 If you rather prefer reading, well... let's just continue :)
 
@@ -26,7 +26,7 @@ Let's jump into VS.
 
 Doing it from Visual Studio is pretty straight forward.
 
-[IMAGE 01]
+![Deployment Type](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o9zzkq0tc5qqzdg00zwa.png)
 
 Just right-click on the __Project Name__, select ___Publish__, choose your deployment target, and then you have the new ___Deployment Type__ selection.
 
@@ -34,7 +34,7 @@ You can either deploy directly, as usual, or create a YAML file for the GitHub A
 
 After confirmation, Visual Studio will take care of the rest and create the YAML file for you in the `.github/workflows` folder, named as your deployment target.
 
-[IMAGE 02]
+![YAML Generated](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/oefpiafjskopdjgtccqm.png)
 
 As you can see in the image, the workflow takes care of both CI and CD for your application
 
@@ -60,7 +60,7 @@ dotnet new workflow
 
 in the root folder of your project and you are done.
 
-What you’ll get is a straightforward GitHub Actions workflow to __build and test__ your .NET application. Keep in mind this is a starting point. It’s not going to do everything you might want, but it’s a solid base to build from.s
+What you’ll get is a straightforward GitHub Actions workflow to __build and test__ your .NET application. Keep in mind this is a starting point. It’s not going to do everything you might want, but it’s a solid base to build from.
 
 ### Conclusions
 
@@ -84,4 +84,4 @@ __Like, share and follow me__ 🚀 for more content:
 
 <a href="https://www.buymeacoffee.com/CoderDave" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 30px !important; width: 108px !important;" ></a>
 
-{% youtube XXX %}
+{% youtube N2ELIqLWz0k %}
