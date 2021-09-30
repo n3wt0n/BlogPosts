@@ -4,9 +4,9 @@ Did you know you can specify multiple repositories in one Azure DevOps YAML Pipe
 
 As usual, if you are a __visual learner__, or simply prefer to watch and listen instead of reading, here you have __the video with the whole explanation and demo__, which to be fair is much ___more complete___ than this post.
 
-{% youtube XXX %}
+{% youtube 6CXaEDEZZRM %}
 
-[Link to the video: XXX](XXX)
+[Link to the video: https://youtu.be/6CXaEDEZZRM](https://youtu.be/6CXaEDEZZRM)
 
 If you rather prefer reading, well... let's just continue :)
 
@@ -186,4 +186,4 @@ __Like, share and follow me__ 🚀 for more content:
 
 <a href="https://www.buymeacoffee.com/CoderDave" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 30px !important; width: 108px !important;" ></a>
 
-{% youtube XXX %}
+{% youtube 6CXaEDEZZRM %}
