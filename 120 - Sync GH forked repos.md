@@ -18,7 +18,7 @@ Right, so the first way you can easily synchronize your forked repo is using the
 
 You can just go to the main page of your repo, in the Code Section, and next to the indicator that says if your branch is ahead or behind the source repo, you now have this "Fetch Upstream" button.
 
-[IMAGE 01]
+![Automatic Fork Sync UI](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/863ca9tr81krdu01r2ag.png)
 
 Clicking on that you have the possibility to __compare__ the changes made in the source repo with the ones made in your forked repo, and also to __automatically fetch and merge__ them into your repo.
 
