@@ -47,7 +47,7 @@ There are a couple of other _somewhat minor_ differences between standard hosted
 
 So, how can we __enable and use the Larger Runners__?
 
-> [Check the related demo part of video to see this in action](https://youtu.be/lTAkB7P1qV0?t=151)
+> [Check the demo section of the video to see this in action](https://youtu.be/lTAkB7P1qV0?t=151)
 
 From your organization home page, go to `Settings`, scroll down to `Actions`, and click on `Runners`. Here you have the list of runners already associated to your org.
 
@@ -71,7 +71,7 @@ Click `Create Runner` and you are done.
 
 ### Use Larger Runners
 
-> [Check the related demo part of video to see this in action](https://youtu.be/lTAkB7P1qV0?t=203)
+> [Check the demo section of the video to see this in action](https://youtu.be/lTAkB7P1qV0?t=203)
 
 The creation was super easy, but how to use the new runners? It’s no different on how you normally use any other runner.
 
